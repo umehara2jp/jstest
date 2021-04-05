@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family:Arial, sans-serif;
+	-webkit-font-smoothing:antialiased;
+	color:#333;
+}
+
+header h1{
+	padding:20px 25px;
+	color:#FFF;
+	background:#54ec99;
+	font-weight:bold;
+}
+
+.button{
+	position:absolute;/*絶対位置を指定することができる*/
+	top:17px;
+	right:25px;
+	background-color:transparent;/*背景色を無効にする*/
+	border:none;
+	cursor:pointer;/*リンクカーソルを表示させる*/
+}
+
+.button:focus{
+	outline:none;
+}
+
+.button img{
+	width: 20px;
+	height: 17px; 
+}
+
+ul{
+	display:none;
+	list-style-type:none;
+}
+
+li a{
+	text-decoration:none;
+	font-weight:bold;
+	display:block;
+	padding:17px 25px;
+	color:#FFF;
+	background:#54ec99;
+	border-bottom:1px solid #54ec99;
+}
+
+li:last-child a{
+	border-bottom:none;
+}
+
+main{
+	display:block;
+	padding:40px 20px 20px;
+	color:#333;
+}
+
+p{
+	margin-bottom:50px;
+	line-height:2em;
+}
